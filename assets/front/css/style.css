@@ -1,0 +1,40 @@
+/*
+Theme Name:  WorldPlus
+Theme URI:   http://2code.info/demo/themes/WorldPlus/
+Description: WorldPlus - Responsive News and Magazine WordPress
+Author:      2codeThemes
+Author URI:  http://2code.info/
+Version:     1.7
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:        one-column, two-columns, left-sidebar, right-sidebar, custom-menu, full-width-template, theme-options, translation-ready
+Text Domain: worldplus
+*/
+.pagination{
+	border-top: 3px solid #ce2429;
+	border-bottom: 3px solid #ce2429;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.pagination a,.pagination span.extend,.pagination span.current{
+	text-align: center;
+	margin-right: 3px;
+	color: #ce2429;
+	padding: 6px 10px 3px;
+
+}
+.pagination a:hover{
+	background-color: #000;
+	color:#fff;
+}
+.pagination span.current{
+	color:#fff;
+	background-color: #ce2429;
+	padding: 4px 10px 6px;
+}
+.pagination .pages{
+	float: right;
+	display: block;
+	font-size: 85%;
+	padding: 7px 0 2px;
+}
